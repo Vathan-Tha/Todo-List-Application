@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyHomework6</string>
+    <string name="city_list_app">City List App</string>
+    <string name="todo">TODO</string>
+    <string name="add_new">Add New</string>
+    <string name="search">Search</string>
+    <string name="setting">Setting</string>
+    <string name="titles">City Lists</string>
+</resources>

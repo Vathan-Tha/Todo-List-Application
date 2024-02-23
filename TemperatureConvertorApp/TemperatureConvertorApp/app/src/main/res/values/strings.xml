@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TemperatureConvertorApp</string>
+    <string name="celcuis">Celcuis:</string>
+    <string name="buttonConvert">Convert</string>
+
+    <string name="portraitText">Portrait</string>
+    <string name="landscapeText">Landscape</string>
+</resources>

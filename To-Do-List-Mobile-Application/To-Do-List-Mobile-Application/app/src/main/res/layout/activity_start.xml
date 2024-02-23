@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapp"
+    tools:context=".activity.StartActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-106dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="345dp"
+            android:layout_marginTop="300dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/welcomeTextView"
+                android:layout_width="411dp"
+                android:layout_height="44dp"
+                android:text="WELCOME TO OUR"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/welcomeTextView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="92dp"
+                android:text="TODO LIST APPLICATION"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/exploreBtn"
+                android:layout_width="122dp"
+                android:layout_height="49dp"
+                android:layout_gravity="center"
+                android:text="Explore Now"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
