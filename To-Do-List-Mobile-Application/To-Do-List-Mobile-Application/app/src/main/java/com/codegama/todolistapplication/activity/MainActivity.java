@@ -12,6 +12,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.ImageView;
+
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -43,7 +45,8 @@ public class MainActivity extends BaseActivity implements CreateTaskBottomSheetF
     @BindView(R.id.taskRecycler)
     RecyclerView taskRecycler;
     @BindView(R.id.addTask)
-    TextView addTask;
+    ImageView addTask;
+
     TaskAdapter taskAdapter;
     List<Task> tasks = new ArrayList<>();
     @BindView(R.id.noDataImage)

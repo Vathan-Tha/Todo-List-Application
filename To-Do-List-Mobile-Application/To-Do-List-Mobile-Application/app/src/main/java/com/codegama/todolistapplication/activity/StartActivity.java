@@ -31,13 +31,13 @@ public class StartActivity extends AppCompatActivity {
         exploreBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openSignupActivity();
+                openLoginActivity();
             }
         });
     }
 
-    private void openSignupActivity() {
-        Intent intent = new Intent(this, SignupActivity.class);
+    private void openLoginActivity() {
+        Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
     }
 }
